@@ -107,19 +107,19 @@ function handleComplete(evt,comp) {
 	.logo img{
     position: absolute;
 		z-index: 100;
-		width: 140px;
-		top:45px;
-		left: 70px;
+		width: 230px;
+		top:42px;
+		left: 22px;
 		animation-name: logo_img;
 		animation-duration: 11s;
 		animation-iteration-count: infinite;
 		opacity: 0;
 	}
 	@keyframes logo_img {
-		0%{opacity: 0; top:34px;}
-		8%{opacity: 1; top:45px;}
-		13%{opacity: 1; top:45px;}
-		23%{opacity: 0; top:51px;}
+		0%{opacity: 0; top:32px;}
+		8%{opacity: 1; top:42px;}
+		13%{opacity: 1; top:42px;}
+		23%{opacity: 0; top:52px;}
 		100%{opacity: 0;}
 	}
 	.logo p{
@@ -145,6 +145,7 @@ function handleComplete(evt,comp) {
 		100%{opacity: 0;}
 	}
 	.h1{
+		font-family: 'Montserrat', sans-serif;
 		top:120px;
 		left:100px;
 		animation-name: h1;
@@ -161,6 +162,7 @@ function handleComplete(evt,comp) {
 		100%{opacity: 0;}
 	}
 	.h2{
+		font-family: 'Montserrat', sans-serif;
 		top:150px;
 		left:80px;
 		animation-name: h2;
@@ -170,14 +172,14 @@ function handleComplete(evt,comp) {
 	}
 	@keyframes h2 {
     0%{opacity: 0;}
-		20%{opacity: 0; left:93px;}
-		29%{opacity: 1; left:80px;}
-		39%{opacity: 1; left:80px;}
-		57%{opacity: 0; left:67px;}
+		20%{opacity: 0; left:94px;}
+		29%{opacity: 1; left:84px;}
+		39%{opacity: 1; left:84px;}
+		57%{opacity: 0; left:74px;}
 		100%{opacity: 0;}
 	}
 	h1{
-		font-family: 'Poppins', sans-serif;
+		font-family: 'Montserrat', sans-serif;
 		position: absolute;
 	  z-index: 100;
 		color:white;
@@ -185,11 +187,12 @@ function handleComplete(evt,comp) {
     text-align: right;
 	}
 .h3{
+	font-family: 'Montserrat', sans-serif;
 	position: absolute;
 	top:10px;
 	left:20px;
 	letter-spacing:3px;
-	color:#044b7c;
+	color:#246463;
 	animation-name: h3;
 	animation-duration: 11s;
 	animation-iteration-count: infinite;
@@ -211,8 +214,7 @@ function handleComplete(evt,comp) {
 <body onload="init();" style="margin:0px;">
 	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:300px; height:250px">
 		<div class="logo">
-			<img src="images/logo/logo.png" alt="">
-			<p>QAZEXPO<br>congress</p>
+			<img src="images/logo/logo1.png" alt="">
 		</div>
 		<h1 class="h1">ДАРИ ВРЕМЯ</h1><h1 class="h2"> СВОЕЙ СЕМЬЕ</h1>
 		<h1 class="h3">NUR ALEM</h1>
