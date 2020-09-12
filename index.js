@@ -385,7 +385,7 @@ p.nominalBounds = new cjs.Rectangle(-25,-125,50.1,250);
 	// Слой_1
 	this.instance = new lib.Hole();
 	this.instance.parent = this;
-	this.instance.setTransform(-321.45,-241.2,1.2062,1.2062);
+	this.instance.setTransform(-371.45,-241.2,1.2062,1.2062);
 
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("A6NaNQq1q3gBvWQABvVK1q4QK4q1PVgBQPWABK3K1QK2K4AAPVQAAPWq2K3Qq3K2vWAAQvVAAq4q2g");
